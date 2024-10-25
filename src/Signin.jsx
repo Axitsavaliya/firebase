@@ -3,7 +3,7 @@ import { auth, Provider } from "./firebase-crud"
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth"
 import { Link, useNavigate } from "react-router-dom"
 import GoogleButton from 'react-google-button'
-// import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from "react-google-recaptcha";
 
 function Signin() {
 
@@ -55,10 +55,10 @@ function Signin() {
                         <td>password</td>
                         <td><input type="password" name='password' placeholder='password' onChange={(e) => { setinput(e) }} /></td>
                     </tr>
-                    {/* <tr>
+                    <tr>
                         <td></td>
-                        <td> <ReCAPTCHA sitekey="6LdKsWkqAAAAAHxG9azlYmh-VuraMq8qwufVKg0P"/> </td>
-                    </tr> */}
+                        <td> <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"/> </td>
+                    </tr>
                     <tr>
                         <td></td>
                         <td><button type="submit">submit</button></td>
