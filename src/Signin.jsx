@@ -56,7 +56,7 @@ function Signin() {
                         <td><input type="password" name='password' placeholder='password' onChange={(e) => { setinput(e) }} /></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td>Recaptcha</td>
                         <td> <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"/> </td>
                     </tr>
                     <tr>
